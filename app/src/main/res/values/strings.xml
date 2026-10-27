@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Incognito Blocker</string>
+    <string name="accessibility_service_name">Incognito Tab Detector</string>
+    <string name="accessibility_service_description">Monitors Chrome for incognito tabs and closes them automatically</string>
+
+    <!-- UI Strings -->
+    <string name="title_main">Incognito Blocker</string>
+    <string name="subtitle_main">Prevent incognito browsing in Chrome</string>
+    <string name="btn_enable_accessibility">Enable Accessibility Service</string>
+    <string name="btn_start_monitoring">Start Monitoring</string>
+    <string name="btn_stop_monitoring">Stop Monitoring</string>
+    <string name="status_monitoring_active">Monitoring Active</string>
+    <string name="status_monitoring_inactive">Monitoring Inactive</string>
+    <string name="status_accessibility_enabled">Accessibility Service Enabled</string>
+    <string name="status_accessibility_disabled">Accessibility Service Disabled</string>
+    <string name="info_text">This app uses Accessibility Service to detect when you open an incognito tab in Chrome and automatically closes Chrome.</string>
+    <string name="permission_warning">Note: Force-closing Chrome may not work on Android 10+ due to system restrictions. The app will show a notification when incognito is detected.</string>
+    <string name="incognito_detected">Incognito tab detected! Chrome will be closed.</string>
+    <string name="chrome_closed">Chrome has been closed.</string>
+    <string name="failed_to_close_chrome">Could not fully close Chrome. Please check notification.</string>
+</resources>

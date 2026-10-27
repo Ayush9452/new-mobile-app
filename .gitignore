@@ -1,0 +1,45 @@
+# Gradle
+.gradle/
+build/
+*/build/
+!*/src/main/**/build.gradle.kts
+!*/src/test/**/build.gradle.kts
+
+# Local configuration
+local.properties
+*.iml
+
+# IDE
+.idea/
+*.iws
+*.ipr
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# APKs
+*.apk
+*.ap_
+*.aab
+
+# JKS
+*.jks
+*.keystore
+
+# External native build
+.externalNativeBuild/
+.cxx/
+
+# Kotlin
+*.kt.bin
+
+# Coverage
+coverage/
+*.ec
+
+# Kotlin 
+.kotlin
